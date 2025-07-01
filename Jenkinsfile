@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Shevdi-repo/P8.git'
+                git branch: 'main', url: 'https://github.com/Shevdi-repo/P8.git'
             }
         }
 
